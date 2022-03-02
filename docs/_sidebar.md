@@ -2,6 +2,5 @@
 
 * [Home](/)
 
-- [Chapter1](chapter1/README.md)
-  - [Test1](test1.md)
-  - [Test2](test2.md)
+- Skinning
+  - [Intro](skinning/0_intro.md)
