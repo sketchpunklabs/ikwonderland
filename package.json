@@ -1,0 +1,22 @@
+{
+  "name": "ikwonderland",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sketchpunklabs/ikwonderland.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sketchpunklabs/ikwonderland/issues"
+  },
+  "homepage": "https://github.com/sketchpunklabs/ikwonderland#readme",
+  "scripts": {
+    "serve": "docsify serve ./docs"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.4.3"
+  }
+}
