@@ -1,27 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <!-- <link rel="stylesheet" href="vendor/themes/vue.css"> -->
+    <link rel="stylesheet" href="vendor/theme-simple-dark.css">
 </head>
 <body>
-  <div data-app id="main">Please wait...</div>
+  <div id="app"></div>
+  <script src="vendor/docsify-edit-on-github.js"></script>
   <script>
     window.$docsify = {
-      name: '',
-      repo: '',
-      el: '#main',
-      loadSidebar: true,
-      subMaxLevel: 2,
-      loadNavBar: true,
-      coverpage: false,
+        // -----------------------------------------------------------------
+        // GENERAL
+        // -----------------------------------------------------------------
+        name        : 'IK Wonderland',
+        repo        : 'https://github.com/sketchpunklabs/ikwonderland',
+        homepage    : 'index.md',
+        coverpage   : false,
+
+        loadSidebar : true,
+        loadNavBar  : true,
+
+        // docsify-themeable
+        themeable   : {
+            readyTransition  : true,
+            responsiveTables : true,
+        },
+
+        // -----------------------------------------------------------------
+        // PLUGINS
+        // -----------------------------------------------------------------
+        plugins     : [
+            // EditOnGithubPlugin.create(
+            //     'https://github.com/sketchpunklabs/ikwonderland/tree/main/docs/', null, 'Edit on Git'
+            // ),
+        ],
+
+        search: {
+            depth      : 3,
+            noData     : 'No results!',
+            placeholder: 'Search...'
+        },
+
+        sidebarDisplayLevel: 0, // docsify-sidebar-collapse
+        
+        // -----------------------------------------------------------------
+        // NAVIGATION
+        // -----------------------------------------------------------------
+        auto2top    : true,
+        maxLevel    : 3,
+        subMaxLevel : 2,
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="vendor/docsify.js"></script>
+  <script src="vendor/docsify-themeable.min.js"></script>
+  <!-- <script src="vendor/docsify-pagination.min.js"></script> -->
+  <script src="vendor/docsify-sidebar-collapse.min.js"></script>
+  <script src="vendor/search.js"></script>
+
+  <!--
+    https://jhildenbiddle.github.io/docsify-themeable
+    https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js
+    https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css\
+
+    //cdn.jsdelivr.net/npm/docsify-edit-on-github
+    //unpkg.com/docsify-pagination/dist/docsify-pagination.min.js
+    //cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js
+    https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js
+
+    https://github.com/jperasmus/docsify-copy-code/blob/master/README.md
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
+    https://jhildenbiddle.github.io/docsify-tabs/#/
+    https://alertbox.github.io/docsify-footer/#/
+    https://www.npmjs.com/package/@rakutentech/docsify-code-inline
+  -->
 </body>
 </html>

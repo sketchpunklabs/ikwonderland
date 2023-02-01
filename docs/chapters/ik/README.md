@@ -1,0 +1,24 @@
+# Inverse Kinematics
+
+- Inverse Quaternion Direction
+- Quaternion Swing & Twist
+- Solvers
+  - Iterative
+    - FABRIK
+    - CCD & Natural CCD
+    - Trianglution Solver
+    - Jacobian
+    - Catenary / Rope
+  - Non-Iterative
+    - Aim / Look
+    - Limb ( Two Bones for Arms & Legs )
+    - Arc & Arc Sin
+    - Piston
+    - Spring
+    - Trapezoid ( Three Bone )
+    - Z ( Three Bone )
+- Constraints
+  - Hinge
+  - Ball & Joint
+- FullBody IK
+- VR IK ( MAYBE, Haven't worked on it yet )

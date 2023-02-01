@@ -17,6 +17,6 @@
     "serve": "docsify serve ./docs"
   },
   "dependencies": {
-    "docsify-cli": "^4.4.3"
+    "docsify-cli": "^4.4.4"
   }
 }
