@@ -1,5 +1,6 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
+- [Primer](/chapters/misc/primer.md)
 - [Data](/chapters/data/)
   - [Quaternions](/chapters/data/quaternions.md)
   - [Transform Hierarchy](/chapters/data/transform_hierarchy.md)
